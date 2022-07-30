@@ -1,0 +1,124 @@
+/* ***************Custom CSS Only*************** */
+
+/* News Card Styles */
+
+.news-card {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.news-card img.news-img {
+    width: 100%;
+}
+
+.news-card .news-content {
+    text-align: justify;
+}  
+
+.news-card h2.news-title {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+
+
+.footer{
+    position:static;
+    bottom:0;
+    width:100%;
+	background-color: #24262b;
+    padding: 10px;
+    padding-left: 300px;
+	margin-top: 242px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/* Login for Admin */
+
+.login{
+	margin-top: 50px;
+}
+
+/* Admin alert message */
+
+.alert{
+	margin-top: 0px;
+}
+
+/* Admin News Management */
+
+#newstable{
+	padding: 20px;
+}
+
+.adminNewsManagetitle{
+	margin-top: 30px;
+}
+.addNewsAdmin{
+	margin-top: 30px;
+}
+
+/* Error Validation Span messages */
+
+.text-red{
+	color: red;
+}
+label.error{
+	display: block!important;
+}
+
+/* Forms */
+
+.addCategoryAdmin{
+	margin-top: 30px;
+}
+.addSubCategoryAdmin{
+	margin-top: 30px;
+}
+.blankaddcategory{
+	margin-top: 336px;
+}
+.blankadminhome{
+	margin-top: 124px;
+}
